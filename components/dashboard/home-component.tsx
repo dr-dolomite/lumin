@@ -1,27 +1,4 @@
 import React from "react";
-
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-  CardFooter,
-  CardAction,
-} from "@/components/ui/card";
-
-import { MdOutlineSignalCellularAlt } from "react-icons/md";
-import { TbArrowDownDashed, TbArrowUpDashed } from "react-icons/tb";
-import {
-  ArrowUpIcon,
-  CardSimIcon,
-  ChevronRightIcon,
-  CircleChevronRightIcon,
-  CircleDotDashedIcon,
-  TrendingUpIcon,
-} from "lucide-react";
-import { Label } from "../ui/label";
-import { Badge } from "../ui/badge";
 import NetworkStatusComponent from "./network-status";
 import DeviceStatus from "./device-status";
 import LTEStatusComponent from "./lte-status";

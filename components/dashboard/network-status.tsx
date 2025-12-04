@@ -6,7 +6,6 @@ import {
   CardHeader,
   CardTitle,
   CardFooter,
-  CardAction,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { DiscIcon, MonitorSmartphoneIcon } from "lucide-react";
