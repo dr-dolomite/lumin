@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-
 import Euclid from "next/font/local";
 
 // Font files can be colocated inside of `app`
@@ -42,7 +41,8 @@ const euclid = Euclid({
 
 export const metadata: Metadata = {
   title: "Lumin",
-  description: "Lumin is a lightweight web console that illuminates modem state and simplifies cellular device management — from APN and band locking to advanced diagnostics.",
+  description:
+    "Lumin is a lightweight web console that illuminates modem state and simplifies cellular device management — from APN and band locking to advanced diagnostics.",
 };
 
 export default function RootLayout({
@@ -52,11 +52,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${euclid.className} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${euclid.className} antialiased`}>{children}</body>
     </html>
   );
 }

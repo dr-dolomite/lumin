@@ -120,3 +120,19 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Pulsating circle animation */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2s ease-in-out infinite alternate;
+}

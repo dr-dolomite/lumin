@@ -61,7 +61,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
             </Breadcrumb>
           </div>
         </header>
-        {children}
+        <div className="px-2 lg:px-6 py-4">{children}</div>
       </SidebarInset>
     </SidebarProvider>
   );
