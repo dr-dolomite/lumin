@@ -29,12 +29,12 @@ import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 
 export const description = "Signal history chart for RSRP, RSRQ, and SINR";
 
-// Generate 60 data points (1 per minute for 1 hour)
+// Generate 5 data points (1 per minute for 5 minutes)
 const generateSignalData = () => {
   const data = [];
   const now = new Date();
 
-  for (let i = 59; i >= 0; i--) {
+  for (let i = 4; i >= 0; i--) {
     const time = new Date(now.getTime() - i * 60 * 1000);
     const timeStr = time.toLocaleTimeString("en-US", {
       hour: "2-digit",
