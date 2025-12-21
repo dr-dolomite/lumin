@@ -84,10 +84,6 @@ const data = {
       icon: LucideSignal,
       items: [
         {
-          title: "Band Selection",
-          url: "#",
-        },
-        {
           title: "Tower Locking",
           url: "#",
         },

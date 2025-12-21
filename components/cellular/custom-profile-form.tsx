@@ -29,9 +29,9 @@ const CustomProfileFormComponent = () => {
   return (
     <Card className="@container/card">
       <CardHeader>
-        <CardTitle>Create Custom Cellular Profile</CardTitle>
+        <CardTitle>Create Custom SIM Profile</CardTitle>
         <CardDescription>
-          Fill out the form below to create a custom cellular profile.
+          Fill out the form below to create a custom SIM profile.
         </CardDescription>
       </CardHeader>
       <CardContent>
