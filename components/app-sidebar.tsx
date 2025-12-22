@@ -80,7 +80,7 @@ const data = {
     },
     {
       title: "Cell Locking",
-      url: "#",
+      url: "/cellular/band-locking",
       icon: LucideSignal,
       items: [
         {
